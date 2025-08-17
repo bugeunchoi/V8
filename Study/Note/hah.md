@@ -79,7 +79,7 @@ class GraphProcessor {
 ... 생략
 ```
 
-class GraphProcessor의 void ProcessGraph(Graph* graph) 멤버 함수부터 순서대로 코드를 봐야 한단거다. 즉, bt의 흐름대로만 분석하려 한다면 중간에 생략되어있는 코드들의 흐름을 놓치게 된다.
+class GraphProcessor의 void ProcessGraph(Graph* graph) 멤버 함수부터 순서대로 코드를 봐야 한단거다. 즉, bt의 흐름대로만 분석하려 한다면 중간에 생략 되어있는 코드들의 흐름을 놓치게 된다.
 
 
 이는 당연한 사실이지만 이 대목에서 유의해야 할 점은 bt는 **이미 리턴된 함수는 출력하지 않음**, **앞서 실행된 코드들은 생략함** 이란 것이다. 
